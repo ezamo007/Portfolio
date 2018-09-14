@@ -1,0 +1,180 @@
+/*
+ UCR STYLE GUIDE http://creativedesign.ucr.edu/ism/UCR_Identity_Standards_Manual-08.12.15.pdf
+ RESET CSS: https://meyerweb.com/eric/tools/css/reset/
+
+ #id { }   .class {}   html_tag{}
+
+UCR BLUE: #2D6CC0
+UCR GOLD: #F1AB00
+UCR GRAY: #7A6E67
+UCR BROWN #905A33
+*/
+
+/* allows use of official UCR font */
+@font-face {
+    font-family: 'tradegothiclt-condeighteen';
+    src: url('TradeGothicLT-CondEighteen.woff2') format('woff2'),
+        url('TradeGothicLT-CondEighteen.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+	font-family: tradegothiclt-condeighteen;
+}
+
+
+/* clears formatting on all links */
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+/* clears margin and padding*/
+body, html, div, span{
+  margin: 0px;
+  padding: 0px;
+  background-color: #7A6E67;
+  font-size: 0;
+}
+
+body{
+  display: block;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.professor_name{
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.professor_details{
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* #top{
+	display: inline-block;
+	width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+	clear:both;
+  margin: 0px;
+} */
+
+#college_logo{
+  width: 100%;
+  height: auto;
+  background-color: white;
+	clear:both;
+	padding-top: 25px;
+
+}
+
+#department_text{
+  width: 100%;
+  font-size: 40px;
+  color: #2D6CC0;
+  background-color: white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  text-align: center;
+
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#faculty_title{
+
+	width: 100%;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color : #FFFFFF;
+  text-align: center;
+
+  background-color: #2D6CC0;
+  font-size: 40px;
+  margin: 0px;
+
+
+
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#faculty{
+  background-color: #7A6E67;
+  display: inline;
+	width: 100%;
+}
+
+
+#faculty_left{
+  background-color: inherit;
+  width: 33.3%;
+  float:left;
+}
+
+#faculty_middle{
+  background-color: inherit;
+  width: 33.4%;
+  float:left;
+
+}
+#faculty_right{
+  background-color: inherit;
+  width: 33.3%;
+  float:right;
+
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#profile{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+
+  background-color: #F1AB00;
+
+  height: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+#profile_extended{
+}
+
+#profile_top{
+  height: auto;
+  padding: 5%;
+  background-color: #F1AB00;
+  color: white;
+  margin:0px;
+}
+#profile_middle{
+  background-color: inherit;
+  background-color: #F1AB00;
+  overflow: hidden;
+  /* padding-right: 10%;
+  padding-left: 10%; */
+  margin:0px;
+  height: auto;
+}
+
+
+#profile_bottom{
+  margin: 0px;
+  background-color: #F1AB00;
+  color: white;
+  padding: 5%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
